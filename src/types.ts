@@ -13,3 +13,7 @@ export interface Category {
   name: string;
   icon: string;
 }
+
+export interface CartItem extends MenuItem {
+  quantity: number;
+}
